@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+// Array representation of Heap (0-based indexing)
+// Index of parent node i      = (i - 1) / 2
+// Index of left child node i  = 2 * i + 1
+// Index of right child node i = 2 * i + 2
+
+
 class Heap
 {
     public:
