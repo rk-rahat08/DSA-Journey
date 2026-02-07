@@ -23,18 +23,6 @@ class Heap
         arr=new int[capacity];
     }
     
-    void insertion(int val)
-    {
-        if(size==capacity)
-        {
-            cout<<"Maximun capacity reached";
-            return;
-        }
-        arr[size]=val;
-        size++;
-    }
-    
-    
     
     void percolateUpForMaxHeap(int i)
     {
